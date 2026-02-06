@@ -16,10 +16,13 @@ app.get("/", (req, res) => {
   res.send("✅ Backend is running successfully");
 });
 
+<<<<<<< HEAD
 app.get("/predict", (req, res) => {
   res.send("✅ Model is running successfully");
 });
 
+=======
+>>>>>>> 14db63196ef4b5c75bbf037fca8b4a7063d38583
 /* =========================
    Prediction Route
    ========================= */

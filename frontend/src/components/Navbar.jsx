@@ -13,7 +13,11 @@ export default function Navbar({ currentPage, onPageChange, isOpen, toggleMenu }
       {/* Logo */}
       <div className="flex items-center gap-2 text-blue-400 font-bold text-2xl">
         <Droplets size={32} />
+<<<<<<< HEAD
         <span>WQI</span>
+=======
+        <span>AquaPure</span>
+>>>>>>> 14db63196ef4b5c75bbf037fca8b4a7063d38583
       </div>
 
       {/* Desktop Menu */}

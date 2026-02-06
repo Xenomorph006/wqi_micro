@@ -73,10 +73,17 @@ export default function PredictionForm({ onPredict }) {
   };
 
   const parameters = [
+<<<<<<< HEAD
     { name: "ph", label: "pH Level", unit: "", placeholder: "", min: 0, max: 14 },
     { name: "turb", label: "Turbidity", unit: "NTU", placeholder: "", min: 0, max: 10000 },
     { name: "temp", label: "Temperature", unit: "°C", placeholder: "", min: 0, max: 50 },
     { name: "tds", label: "TDS (Total Dissolved Solids)", unit: "ppm", placeholder: "", min: 0, max: 50000 }
+=======
+    { name: "ph", label: "pH Level", unit: "", placeholder: "6-8", min: 0, max: 14 },
+    { name: "turb", label: "Turbidity", unit: "NTU", placeholder: "0-10", min: 0, max: 100 },
+    { name: "temp", label: "Temperature", unit: "°C", placeholder: "0-50", min: 0, max: 50 },
+    { name: "tds", label: "TDS (Total Dissolved Solids)", unit: "ppm", placeholder: "0-2000", min: 0, max: 5000 }
+>>>>>>> 14db63196ef4b5c75bbf037fca8b4a7063d38583
   ];
 
   return (
