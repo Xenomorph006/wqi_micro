@@ -1,0 +1,30 @@
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+
+  /* Soft, soothing vibrancy */
+  filter: brightness(1.11) contrast(1.1) saturate(1.2);
+  transition: filter 0.3s ease;
+}
+
+/* Optional soft overlay for better text readability */
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15)
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
